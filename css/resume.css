@@ -9,10 +9,19 @@
     background: -webkit-linear-gradient(#eee, #555);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 7rem;
 }
 
+.lead {
+    line-height: 1.7em;
+    font-size: 1.0rem;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+
 .background {
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.2) 0%, rgba(22, 22, 22, 0.8) 75%, #161616 100%), url("../img/stars.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/stars.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -42,7 +51,6 @@ h6 {
     /*font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';*/
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
     color: #494949;
     /* text headers */
 }
@@ -58,11 +66,6 @@ h2 {
 
 h3 {
     font-size: 1.8rem;
-}
-
-p.lead {
-    font-size: 1.15rem;
-    font-weight: 400;
 }
 
 .subheading {
@@ -191,8 +194,8 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-    font-size: 1.1rem;
-    color: #0d47a1 !important;
+    font-size: 1.2rem;
+    color: #e2f1f8 !important;
 }
 
 a {
