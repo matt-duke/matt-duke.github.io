@@ -19,7 +19,6 @@
     color: rgba(255, 255, 255, 0.80);
 }
 
-
 .background {
     background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/stars.jpg");
     background-position: center;
@@ -199,7 +198,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-    color: #0d47a1;
+    color: #196eee;
 }
 
 a:hover,
